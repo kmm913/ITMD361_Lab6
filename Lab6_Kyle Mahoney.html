@@ -36,9 +36,12 @@
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	<script type="text/javascript">
+  
 		entrybutton.addEventListener("click", function(){
-      document.getElementByID("textoutput").innerHTML = document.getElementByID("entryinput");
-    
+      alert('Kyle Mahoney: ' + document.getElementById("entryinput").value);
+      document.getElementById("textoutput").innerHTML = document.getElementById("entryinput").value;
+      });    
+      
 	</script>
 </body>
 </html>
